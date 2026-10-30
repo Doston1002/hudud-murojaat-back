@@ -25,6 +25,9 @@
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
+Place `Telegram_bot_Xabar_yo'llovchi_uchun_foydalanish_qo'llanmasi.pdf` in
+`assets/` so the bot can send the usage guide after the `/help` response.
+
 ## Project setup
 
 ```bash

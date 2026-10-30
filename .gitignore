@@ -1,29 +1,27 @@
-# See http://help.github.com/ignore-files/ for more about ignoring files.
-
-# project files
+@"
+# Environment variables
 .env
+.env.*
+!.env.example
 
-# compiled output
-/dist
-/tmp
-/out-tsc
-/*.tsbuildinfo
+# Dependencies
+node_modules/
 
-# dependencies
-/node_modules
+# Build
+dist/
+coverage/
+.next/
+build/
+*.tsbuildinfo
 
-# IDEs and editors
-/.idea
-.project
-.classpath
-.c9/
-*.launch
-.settings/
-*.sublime-workspace
+# Logs
+*.log
 
-# IDE - VSCode
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+"@ | Set-Content .gitignore
